@@ -1,7 +1,11 @@
-<form>
-  <label for="giraffe">Enter a number</label>
-  <input id="giraffe" type="text" placeholder="what number do you want to square?" name="elephant"
-
+<form action="/square/results">
+  <div>
+    <label for="user_number">Enter a number</label>
+  </div>
+  <div>
+    <input type="text" name="number" id="user_number" placeholder="What number do you want the square of?">
+  </div>
   <button>Calculate square</button>
-  
-  </form>
+</form>
+
+<a href="/square/results">
